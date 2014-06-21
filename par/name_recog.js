@@ -1,12 +1,8 @@
 
-function nameSplit(string){
-	var splits = string.split(",");
-	splits.reverse();
-	string="";
-	for(str in splits){
-		string += str + " ";
-	}
-	splits = string.split(/[. ]/);
-	splits = splits.filter(function(item){ return item!=""; });
-	return splits;
+function nameSplit(name){
+	var splitName = name.split(",").reverse();
+	var orderedName="";
+	splitName.forEach(function(item){orderedName=orderedName+item+" ";});
+	splitOrderedName = orderedName.split(/[. ]/).filter(function(item){ return item!=""; });
+	return splitOrderedName;
 }
