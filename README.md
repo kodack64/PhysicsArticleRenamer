@@ -1,4 +1,4 @@
-PhysicalArticleRenamer
+PhysicsArticleRenamer
 ======================
 
 論文誌のサイトに共通したフォーマットにリネームしてファイルをダウンロードするボタンを追加する。
