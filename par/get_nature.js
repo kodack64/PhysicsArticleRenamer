@@ -13,13 +13,15 @@ function articleName(name){
 		return "NaturePhysics";
 	}else if(name.indexOf("nphoton")!=-1){
 		return "NaturePhotonics";
-	}else{
-		return "Nature";
+	} else if (name.indexOf("ncomms") != -1) {
+	    return "NatureCommunications";
+	} else {
+	    return "Nature";
 	}
 }
 
 console.log(location.href);
-var reNature = new RegExp("^http://www.nature.com/(nature|nphys|nphoton)/journal/v.*/n.*/full/n.*\\.html$", "g");
+var reNature = new RegExp("^http://www.nature.com/(nature|nphys|nphoton|ncomms)/journal/v.*/n.*/full/n.*\\.html$", "g");
 
 // Nature family
 if(reNature.test(location.href)){
