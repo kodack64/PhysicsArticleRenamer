@@ -26,7 +26,7 @@ if(rePhysicalReview.test(location.href)){
 		if(item.getAttribute("property") == "og:site_name"){
 			article = getArticleName(item.content);
 		}else if(item.getAttribute("property") == "og:url"){
-			url = item.content.replace("abstract","pdf")+".pdf";
+			url = (item.content.replace("abstract","pdf")+".pdf").replace("https","http","g");
 		}else if(item.getAttribute("property") == "og:title"){
 			title = item.content;
 		}else if(item.getAttribute("property") == "article:published_time"){

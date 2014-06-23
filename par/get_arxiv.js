@@ -32,7 +32,7 @@ if(reArxiv.test(location.href)){
 	var downloadLink = document.createElement("a");
 	downloadLink.href = url;
 	downloadLink.download = fileName;
-	downloadLink.innerHTML="Renamed PDF";
+	downloadLink.innerHTML = "Renamed PDF";
 
 	var downloadColumn = document.createElement("li");
 	downloadColumn.appendChild(downloadLink);

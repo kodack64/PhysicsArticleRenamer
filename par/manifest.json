@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "PhysicsArticleRenamer",
-	"description": "arXivのページに\"(article)_(year)_(author)_(title).pdf\"とリネームされたファイルへのリンクを追加します。",
+	"description": "arXiv、Physical Review系統、Nature系統、Scienceのページに\"(article)_(year)_(author)_(title).pdf\"とリネームされたファイルへのリンクを追加します。",
 	"version": "0.1",
 	"content_scripts": [
 		{
@@ -10,13 +10,18 @@
 			"run_at": "document_end"
 		},
 		{
-			"matches": ["https://journals.aps.org/pr*/abstract/*/PhysRev*.*.*"],
+			"matches": ["http://journals.aps.org/pr*/abstract/*/PhysRev*.*.*"],
 			"js" : ["get_physical_review.js"],
 			"run_at": "document_end"
 		},
 		{
-			"matches": ["http://journals.aps.org/pr*/abstract/*/PhysRev*.*.*"],
-			"js" : ["get_physical_review.js"],
+			"matches": ["http://www.sciencemag.org/content/*/*/*"],
+			"js" : ["get_science.js"],
+			"run_at": "document_end"
+		},
+		{
+			"matches": ["http://www.nature.com/*/journal/v*/n*/full/*.html"],
+			"js" : ["get_nature.js"],
 			"run_at": "document_end"
 		}
 	],
