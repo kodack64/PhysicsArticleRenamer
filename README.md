@@ -3,8 +3,12 @@ PhysicsArticleRenamer
 
 論文誌のサイトに共通したフォーマットにリネームしてファイルをダウンロードするボタンを追加するgoogle chromeのエクステンション。
 
-メモ
+・対応誌
 
-・https接続した場合はうまくいかないのでhttp接続して下さい。
+Science,Nature(本誌,Physics,Photonics,Communications),Physical Review系統,arXiv
 
-・Scienceはフルペーパーで表示した時だけDLを追加します。
+・メモ
+
+https接続した場合はうまくいかないのでhttp接続して下さい。
+
+Scienceはフルペーパーで表示した時だけDLを追加します。
