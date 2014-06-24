@@ -20,7 +20,7 @@
 			"run_at": "document_end"
 		},
 		{
-			"matches": ["http://www.nature.com/*/journal/v*/n*/full/*.html"],
+			"matches": ["http://www.nature.com/*/full/*.html"],
 			"js" : ["get_nature.js"],
 			"run_at": "document_end"
 		}

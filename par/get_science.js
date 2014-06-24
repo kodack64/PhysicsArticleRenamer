@@ -9,7 +9,7 @@ function getSplitName(name) {
 }
 
 console.log(location.href);
-var reScience = new RegExp("^http://www.sciencemag.org/content/(early/)?[0-9]+/[0-9]+/.*.(full|abstract|short)$", "g");
+var reScience = new RegExp("^http://www.sciencemag.org/content/(early/)?[0-9]+/[0-9]+/.*.full$", "g");
 
 // Science
 if(reScience.test(location.href)){

@@ -21,10 +21,11 @@ function articleName(name){
 }
 
 console.log(location.href);
-var reNature = new RegExp("^http://www.nature.com/(nature|nphys|nphoton|ncomms)/journal/v.*/n.*/full/n.*\\.html$", "g");
+var reNature = new RegExp("^http://www.nature.com/(nature|nphys|nphoton)/journal/v.*/n.*/full/n.*\\.html$", "g");
+var reNatureNcomm = new RegExp("^http://www.nature.com/ncomms/.*/full/ncomms[0-9]*\\.html$");
 
 // Nature family
-if(reNature.test(location.href)){
+if(reNature.test(location.href) || reNatureNcomm.test(location.href)){
 	console.log("this is Nature article page");
 	var article = articleName(location.href);
 	var title = document.getElementsByName("DC.title")[0].content;
@@ -42,6 +43,5 @@ if(reNature.test(location.href)){
 	downloadLink.href = url;
 	downloadLink.download = fileName;
 	var h3 = document.getElementById("toggle-download-links");
-	console.log(h3);
 	h3.insertBefore(downloadLink,h3.firstElementChild.nextElementSibling);
 }
