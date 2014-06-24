@@ -3,9 +3,8 @@ PhysicsArticleRenamer
 
 論文誌のサイトに共通したフォーマットにリネームしてファイルをダウンロードするボタンを追加するgoogle chromeのエクステンション。
 
-todo: Nature系統の表示が崩れる
+メモ
+・https接続した場合はうまくいかないのでhttps接続して下さい。
+・Scienceはフルペーパーで表示した時だけDLを追加します。
 
-todo: httpsでつなぐとファイル名が変更されない
-
-todo: Scienceが何故かたまにうまくいかない
 
