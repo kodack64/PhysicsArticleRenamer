@@ -5,6 +5,6 @@ PhysicsArticleRenamer
 
 メモ
 
-・https接続した場合はうまくいかないのでhttps接続して下さい。
+・https接続した場合はうまくいかないのでhttp接続して下さい。
 
 ・Scienceはフルペーパーで表示した時だけDLを追加します。
