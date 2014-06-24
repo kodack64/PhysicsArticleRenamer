@@ -1,10 +1,10 @@
 PhysicsArticleRenamer
 ======================
 
-˜_•¶Ž‚ÌƒTƒCƒg‚É‹¤’Ê‚µ‚½ƒtƒH[ƒ}ƒbƒg‚ÉƒŠƒl[ƒ€‚µ‚Äƒtƒ@ƒCƒ‹‚ðƒ_ƒEƒ“ƒ[ƒh‚·‚éƒ{ƒ^ƒ“‚ð’Ç‰Á‚·‚égoogle chrome‚ÌƒGƒNƒXƒeƒ“ƒVƒ‡ƒ“B
+è«–æ–‡èªŒã®ã‚µã‚¤ãƒˆã«å…±é€šã—ãŸãƒ•ã‚©ãƒ¼ãƒžãƒƒãƒˆã«ãƒªãƒãƒ¼ãƒ ã—ã¦ãƒ•ã‚¡ã‚¤ãƒ«ã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã™ã‚‹ãƒœã‚¿ãƒ³ã‚’è¿½åŠ ã™ã‚‹google chromeã®ã‚¨ã‚¯ã‚¹ãƒ†ãƒ³ã‚·ãƒ§ãƒ³ã€‚
 
-ƒƒ‚
-EhttpsÚ‘±‚µ‚½ê‡‚Í‚¤‚Ü‚­‚¢‚©‚È‚¢‚Ì‚ÅhttpsÚ‘±‚µ‚Ä‰º‚³‚¢B
-EScience‚Íƒtƒ‹ƒy[ƒp[‚Å•\Ž¦‚µ‚½Žž‚¾‚¯DL‚ð’Ç‰Á‚µ‚Ü‚·B
+ãƒ¡ãƒ¢
+ãƒ»httpsæŽ¥ç¶šã—ãŸå ´åˆã¯ã†ã¾ãã„ã‹ãªã„ã®ã§httpsæŽ¥ç¶šã—ã¦ä¸‹ã•ã„ã€‚
+ãƒ»Scienceã¯ãƒ•ãƒ«ãƒšãƒ¼ãƒ‘ãƒ¼ã§è¡¨ç¤ºã—ãŸæ™‚ã ã‘DLã‚’è¿½åŠ ã—ã¾ã™ã€‚
 
 
